@@ -1,0 +1,115 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: 0px;
+}
+
+.screen {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(162, 193, 240);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo {
+  width: 40%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  overflow: hidden;
+  position:relative;
+}
+
+.title {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: blueviolet;
+  padding: 5px 10px 5px 10px;
+  position: relative;
+
+}
+
+.fa-bars {
+  height: 15px;
+  width: 15px;
+  position: absolute;
+  left: 20px;
+}
+
+.title div {
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+}
+
+.list {
+  width: 100%;
+  height: auto;
+  background-color: azure;
+  text-align: center;
+  position: relative;
+}
+
+#i1 {
+  width: 95%;
+  height: 6%;
+  text-align: center;
+}
+
+.b1 {
+  margin: 0px 0px 5px 5px;
+  border-radius: 20px;
+  font-size: 20px;
+  width:120px;
+  height:30px;
+  background-color:darkorchid;
+  color:white;
+  border: 0px solid blueviolet;
+  position:absolute;
+  bottom: -50px;
+  left: 100px;
+}
+
+.litems{
+  width:100%;
+  height:auto;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  position: relative;
+}
+
+.fa-circle{
+  font-size:10px;
+  position:absolute;
+  left: 30px;
+}
+
+.fa-trash-can{
+  font-size:15px;
+  position:absolute;
+  right:30px;
+}
+
+.item1,.item2{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.item2{
+  text-decoration: line-through rgb(109, 114, 116) ;
+}
+
+#cir1{
+  background-color: blueviolet;
+  border-radius: 50px;
+  overflow: hidden;
+}
